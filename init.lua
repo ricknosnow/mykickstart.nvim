@@ -184,7 +184,7 @@ end
 -- Normal --
 -- Write file
 -- Map('n', '<leader>w', '<cmd>w<CR>')
-Map('n', '<leader>e', ':Neotree toggle reveal<cr>')
+Map('n', '<leader>e', ':Neotree reveal toggle<cr>')
 
 -- Insert --
 -- Press jk fast to exit insert mode
