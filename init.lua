@@ -184,7 +184,7 @@ end
 -- Normal --
 -- Write file
 -- Map('n', '<leader>w', '<cmd>w<CR>')
-Map('n', '<leader>e', ':Neotree reveal toggle<cr>')
+--Map('n', '<leader>e', ':Neotree reveal toggle<cr>')
 
 -- Insert --
 -- Press jk fast to exit insert mode
@@ -268,16 +268,16 @@ require('lazy').setup({
   --       My Plugins
   --######################################
 
-  {
-    'nvim-neo-tree/neo-tree.nvim',
-    branch = 'v3.x',
-    dependencies = {
-      'nvim-lua/plenary.nvim',
-      'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
-      'MunifTanjim/nui.nvim',
-      -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
-    },
-  },
+  --  {
+  --    'nvim-neo-tree/neo-tree.nvim',
+  --    branch = 'v3.x',
+  --    dependencies = {
+  --      'nvim-lua/plenary.nvim',
+  --      'nvim-tree/nvim-web-devicons', -- not strictly required, but recommended
+  --      'MunifTanjim/nui.nvim',
+  --      -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
+  --    },
+  --  },
 
   --######################################
 
@@ -980,7 +980,7 @@ require('lazy').setup({
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
   -- require 'kickstart.plugins.autopairs',
-  -- require 'kickstart.plugins.neo-tree',
+  require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
