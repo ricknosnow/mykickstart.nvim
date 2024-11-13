@@ -181,11 +181,14 @@ end
 --   term_mode = "t",
 --   command_mode = "c",
 
+-- Normal --
 -- Write file
 Map('n', '<leader>w', '<cmd>w<CR>')
 
--- Close NVIM
-Map('n', '<leader>q', '<cmd>q<CR>')
+-- Insert --
+-- Press jk fast to exit insert mode
+Map('i', 'jk', '<ESC>')
+Map('i', 'kj', '<ESC>')
 
 --##########################################################
 
